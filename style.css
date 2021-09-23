@@ -4,7 +4,6 @@
   --balloon3-bg-color: #f9873ce3;
   --balloon4-bg-color: #4ac7fce3;
   --balloon5-bg-color: #85ff7ae6;
-  --bg-color: #a27bcc;
 
   --balloon-anim-1: balloon1 15s ease infinite;
   --balloon-anim-2: balloon2 5s ease infinite;
@@ -17,6 +16,9 @@
 html,
 body {
   height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 body {
   background: radial-gradient(ellipse at center, #ffdd00 0%, #fbb034 100%);
@@ -246,9 +248,7 @@ body {
 /* ============================================== POSITION
 */
 .cake {
-  position: absolute;
-  top: 55%;
-  left: 50%;
+  position: relative;
   margin-left: -50px;
   margin-top: -50px;
   width: 100px;
