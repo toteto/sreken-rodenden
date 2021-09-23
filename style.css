@@ -1,9 +1,9 @@
 :root {
-  --balloon1-bg-color: #eaeaeae6;
-  --balloon2-bg-color: #e8dab2e6;
-  --balloon3-bg-color: #dd6e42e3;
-  --balloon4-bg-color: #4f6d7ad6;
-  --balloon5-bg-color: #eaeaeae6;
+  --balloon1-bg-color: #e14e4ee6;
+  --balloon2-bg-color: #8970f7e6;
+  --balloon3-bg-color: #f9873ce3;
+  --balloon4-bg-color: #4ac7fce3;
+  --balloon5-bg-color: #85ff7ae6;
   --bg-color: #a27bcc;
 
   --balloon-anim-1: balloon1 15s ease infinite;
@@ -187,7 +187,7 @@ body {
 }
 .balloon1 {
   background: var(--balloon1-bg-color);
-  box-shadow: inset 10px 10px 10px #c7c3c3e6;
+  box-shadow: inset 10px 10px 10px #c14242e6;
 }
 .balloon1::after {
   color: var(--balloon1-bg-color);
@@ -195,7 +195,7 @@ body {
 
 .balloon2 {
   background: var(--balloon2-bg-color);
-  box-shadow: inset 10px 10px 10px #d5c7a1;
+  box-shadow: inset 10px 10px 10px #6e5ac7;
 }
 .balloon2::after {
   color: var(--balloon2-bg-color);
@@ -203,7 +203,7 @@ body {
 
 .balloon3 {
   background: var(--balloon3-bg-color);
-  box-shadow: inset 10px 10px 10px #cf6840;
+  box-shadow: inset 10px 10px 10px #d5793c;
 }
 .balloon3::after {
   color: var(--balloon3-bg-color);
@@ -211,14 +211,14 @@ body {
 
 .balloon4 {
   background: var(--balloon4-bg-color);
-  box-shadow: inset 10px 10px 10px #4f6d7a;
+  box-shadow: inset 10px 10px 10px #3da5d2;
 }
 .balloon4::after {
   color: var(--balloon4-bg-color);
 }
 .balloon5 {
   background: var(--balloon5-bg-color);
-  box-shadow: inset 10px 10px 10px #cbc8c8;
+  box-shadow: inset 10px 10px 10px #6de463;
 }
 .balloon5::after {
   color: var(--balloon5-bg-color);
