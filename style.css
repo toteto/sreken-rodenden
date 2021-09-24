@@ -21,7 +21,7 @@ body {
   align-items: center;
 }
 body {
-  background: radial-gradient(ellipse at center, #5aff15 0%, #00b712 100%);
+  background: radial-gradient(ellipse at center, #ffdd00 0%, #fbb034 100%);
   position: absolute;
   top: 0;
   bottom: 0;
